@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="richTextBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>The library has a special division for handling the publishing of printed materials.
+
+Praphullachandra Ray:A Checklist of Major Holdings in English and Bengali (with Edited Texts in Sanskrit) at the the National Library, Kolkata
+ed. Swapan Chakravorty (Kolkata: National Library,2011)
+ISBN 978-81-85-348-11-7 Rs.275
+
+Catalogues:
+
+Bengali
+	
+
+  
+
+1. Author Catalogue of Printed Books in Bengali Language.
+
+ 
+	
+
+ Volume 3
+	
+
+ M-R
+	
+
+ 1959
+	
+
+ Rs 9.55
+
+ Volume 4
+	
+
+ S-Z
+	
+
+ 1963
+	
+
+ Rs 4.70
+
+	
+
+ 
+
+2. Author Catalogue of Printed Books in Bengali Language
+	
+
+Rs 296.00
+
+ 
+	
+
+Volume I (A-F)
+	
+
+ 
+
+3.Author Catalogue of Printed Books in Bengali Language
+	
+
+Rs 328.00
+
+ 
+	
+
+Volume 2 (G-I)
+	
+
+ 
+
+4.Author Catalogue of Printed Books in Bengali Language
+	
+
+Rs 475.00
+
+ 
+	
+
+Language Volume 3 (M-R)
+	
+
+ 
+
+5.Rabindragrantha Suchi in Bengali Language, Volume 1
+	
+
+Rs 110.00
+
+ 
+	
+
+Part 1, 1988
+	
+
+ 
+
+English Language
+	
+
+ 
+
+6. Author Catalogue of Printed Books in English Language
+	
+
+Rs 507.00
+
+ 
+	
+
+Volume I, 1962-80 (Supp.)
+	
+
+ 
+
+7. Author Catalogue of Printed Books in English Language
+	
+
+Rs 1604.00
+
+ 
+	
+
+Volume II, Part-1 (Supplement 1962-80) Letter B
+	
+
+ 
+
+European Languages
+	
+
+ 
+
+8. Author Catalogue of Printed Books in European languages, 1941-1964
+
+ 
+	
+
+Volume
+	
+
+1
+	
+
+A-B
+	
+
+1941
+	
+
+Rs
+	
+
+6.12
+
+Volume
+	
+
+2
+	
+
+C-E
+	
+
+1942
+	
+
+Rs
+	
+
+6.00
+
+Volume
+	
+
+3
+	
+
+F-H
+	
+
+1942
+	
+
+Rs
+	
+
+6.10
+
+Volume
+	
+
+4
+	
+
+I-L
+	
+
+1942
+	
+
+ 
+	
+
+ 
+
+Volume
+	
+
+5
+	
+
+M
+	
+
+1953
+	
+
+Rs
+	
+
+12.12
+
+Volume
+	
+
+6
+	
+
+N-P
+	
+
+1954
+	
+
+Rs
+	
+
+11.12
+
+Volume
+	
+
+7
+	
+
+Q-R
+	
+
+1956
+	
+
+Rs
+	
+
+6.75
+
+Volume
+	
+
+8
+	
+
+S
+	
+
+1960
+	
+
+Rs
+	
+
+6.25
+
+Volume
+	
+
+9
+	
+
+T-V
+	
+
+1963
+	
+
+Rs
+	
+
+7.25
+
+Volume
+	
+
+10
+	
+
+W-Z
+	
+
+1964
+	
+
+Rs
+	
+
+11.12
+
+9. Author Catalogue of Printed Books in European Languages: Supplement (1951-1961).
+
+ 
+	
+
+Volume
+	
+
+1
+	
+
+A
+	
+
+1966
+	
+
+Rs
+	
+
+15.00
+
+Volume
+	
+
+2
+	
+
+B
+	
+
+1973
+	
+
+Rs
+	
+
+13.50
+
+Volume
+	
+
+3
+	
+
+C
+	
+
+1975
+	
+
+Rs
+	
+
+12.00
+
+Volume
+	
+
+4
+	
+
+D-E (Letter)
+	
+
+1977
+	
+
+Rs
+	
+
+60.00
+
+Volume
+	
+
+5
+	
+
+F-G (Letter)
+	
+
+1978
+	
+
+Rs
+	
+
+35.00
+
+Volume
+	
+
+6
+	
+
+H-I
+	
+
+1980
+	
+
+Rs
+	
+
+55.00
+
+Volume
+	
+
+7
+	
+
+J-L
+	
+
+1982
+	
+
+Rs
+	
+
+56.00
+
+Volume
+	
+
+8
+	
+
+M
+	
+
+1982
+	
+
+Rs
+	
+
+57.00
+
+Volume
+	
+
+9
+	
+
+N-R
+	
+
+1985
+	
+
+Rs
+	
+
+233.00
+
+Volume
+	
+
+10
+	
+
+S (Letter)
+	
+
+1985
+	
+
+Rs
+	
+
+165.00
+
+Volume
+	
+
+11
+	
+
+T-Z (Letter)
+	
+
+1983
+	
+
+Rs
+	
+
+297.00
+
+10. Subject Catalogue of Printed Books in European Languages
+
+ 
+	
+
+Volume 1 A 1966 Rs 15.00
+Volume 2 B 1973 Rs 13.95
+
+11. Subject Index to the Author Catalogue: First Supplement, 1929  Rs3.25
+
+12. Subject Index to the Author Catalogue: Second Supplement, 1939  Rs3.94
+
+Hindi Language
+	
+
+ 
+
+13. Author Catalogue of Printed Books in Hindi Language
+
+ 
+	
+
+ Volume I, Letter: A-B
+	
+
+Rs 185.00
+
+Sanskrit, Pali and Prakrit Languages
+	
+
+ 
+
+14. Catalogue of Sanskrit, Pali and Prakrit Books
+	
+
+ 
+
+ 
+	
+
+Volume 1 A-G 1951
+	
+
+Rs 4.31
+
+Volume 2 H-Q 1956
+	
+
+Rs 13.75
+
+Volume 3 R-Z 1973
+	
+
+Rs 125.00
+
+15. Catalogue of Sanskrit, Pali and Prakrit Books Supplement,1947-1980 (A-Z), 1988 Rs 778
+
+Asutosh Collection
+	
+
+ 
+
+16. Ashutosh Collection Catalogue
+	
+
+ 
+
+ 
+	
+
+Volume 1 (Fine Arts), 1985
+	
+
+Rs 6.00
+
+ Volume 2 (Literature American &amp; European)
+	
+
+Rs 11.88 
+
+ Volume 3 (History, Geography, Travel &amp; Biography)
+	
+
+Rs 256.50
+
+ Volume 4 (Science &amp; Technology), 1953
+	
+
+Rs 95.00
+
+Tamil Language
+	
+
+ 
+
+17. Author Catalogue of Printed Books in Tamil Language
+	
+
+Rs 185.00
+
+Persian Manuscripts
+	
+
+ 
+
+18. Catalogue of Persian Manuscripts in Buhar collection, 1988
+	
+
+Rs 45.00
+
+19. J. N. Sarkar's Catalogue of Persian Manuscripts (Photocopy) 1988
+	
+
+Rs 40.00
+
+Gazettes, Newspaper and Periodicals
+	
+
+ 
+
+20. Catalogue of periodicals, Newspapers &amp; Gazettes, Volume-I, 1956
+	
+
+Rs 6.00
+
+Bibliographies
+	
+
+ 
+
+21.(A) Bibliography of Indology, Indian Anthropology, Volume 1  1960
+	
+
+Rs 5.00
+
+ 
+	
+
+(B) Bibliography of Indology, Indian Volume II - Indian Botany, Part I (A-J), 1961
+	
+
+Rs 8.00
+
+ 
+	
+
+(C) Bibliography of Indology, Volume II Indian Botany, Part II (K-Z), 1965
+	
+
+Rs 8.25
+
+ 
+	
+
+(D) Bibliography of Indology Volume III Bengali Language &amp; Literature, Part I (Early period)
+	
+
+ Rs 6.00
+
+22. A Bibliography of Dictionaries and Encyclopaedias in Indian Languages, 1964
+	
+
+Rs 4.75
+
+23. Bibliography of Nyaya Philosophy
+	
+
+Rs 346.00
+
+Conference Proceedings
+	
+
+ 
+
+24. Bibliographical Control in India, 1988
+	
+
+Rs 75.00
+
+25. National Library and Public Libraries in India
+	
+
+Rs 30.00
+
+26. Conservation of Library Materials, 1985
+	
+
+Rs 78.00.
+
+27. National Library and Public Library Development
+	
+
+Rs 169.00
+
+ 
+	
+
+ 150th Anniversary of the Calcutta Public Library
+	
+
+ 
+
+28. Planning Modernization and Preservation Programme
+	
+
+Rs 280.00
+
+ 
+	
+
+ in South Asian Libraries, 1990
+	
+
+ 
+
+Other Publications
+	
+
+ 
+
+29. The Sapru Correspondence. A Check List ( First Series ), 1961
+	
+
+Rs 13.40
+
+30. Index Translationum Indicarum, 1963
+	
+
+Rs 12.00
+
+31. India’s National Library: Systematization and Modernization,
+	
+
+Rs 210.00
+
+ 
+	
+
+ by Uma Majumder, 1987
+	
+
+ 
+
+32. Indological Studies &amp; South Asia Bibliography, 1988
+	
+
+Rs 115.00
+
+33. Brochure on National Library, 1992
+	
+
+Rs 43.00
+
+34. Glimpses of India through Western Eyes, edited by Kalpana Das Gupta
+	
+
+Rs 45.00
+
+35. Dr. S. R. Ranganathan: A Tribute
+	
+
+Rs 83.00
+
+36. Preservation of Documents
+	
+
+Rs 810.00
+
+ How to Obtain the National Library Publications?
+
+One can purchase the National Library publication in the library. These are also sent by post, if one pays the price through M.O. or Demand Draft in advance. The publications are sent by V.P.P for the postal charges. The M.O./ D.D. are to be addressed and drawn in favour of ‘The Director General, National Library, Kolkata’, payable at Kolkata.
+</value>
+  </data>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

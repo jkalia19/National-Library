@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="richTextBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Rare Books
+The National Library has an impressive number of rare books and other reading materials. In 1973, a separate Rare Books division was established. At present the books published prior to 1860 are considered rare books, along with limited and first editions, books distinguished by their design, illustration or history, and a few other criteria. Along with rare books, manuscripts and microfilms of the library are also stacked in this division.
+
+The division also provides reading facilities to the users who wish to consult these items. At present the division has 4700 monographs, 3000 manuscripts and 1500 microfilms
+	
+
+The Oldest Book in the Library
+(in Latin)
+
+Science and Technology Collection
+
+Following the recommendations of the Reviewing Committee (1968), the Science and Technology division was set up in 1972. The basic function of this division is to collect and disseminate the core material in science and technology. At present the division holds about 17,000 books and monographs and 800 current print periodicals. The division provides reading facilities and has an open access stack system.
+
+Indian Official Documents
+
+All the publications of Government of India, State Governments, Union Territories, Government Undertakings, Autonomous Bodies are collected, processed and preserved separately. A separate division for this purpose was established in 1972. The library owns a rich collection of Indian official documents from the days of the East India Company to the present. The collection also includes the documents published by the Government of Great Britain relating to India. A good collection of Myanmarese (Burmese) documents and few documents of Aden, Sri Lanka (Ceylon), Persian Gulf Political Residency are also part of this collection. At present, the division holds around 4, 90,000 documents.
+
+Foreign Official Documents
+
+The National Library is one of the repository libraries for United Nations Organisation and its agencies. Thus all the publications of UNO and its agencies are received by the library free of cost. These documents are processed and stacked separately. The library also receives publications of the governments of the United States of America, Great Britain, Canada, the Commonwealth nations, and the publications of the European Economic Committee. Almost all the volumes of the sessional sets of British Parliamentary papers since the beginning of the 19th century are available.
+
+
+Apart from the depositary copies, the library acquires selected foreign publications through purchase. At present the library has around 400,000 foreign official documents.
+
+Newspapers and Periodicals
+
+All the newspapers and periodicals in Indian languages are received and processed in their respective language divisions. But English newspapers and periodicals, both the Indian and foreign, are acquired and processed separately. A separate Serials division is responsible for acquiring and processing of English newspapers and periodicals. The library has a rich collection of late 19th and early 20th century newspapers and periodicals, but almost all of them are incomplete sets. There are catalogues for periodicals, newspapers and gazettes available in the library up to 1953.
+	
+
+ 
+
+Hicky’s Gazette
+
+The First Newspaper in India
+
+Manuscripts (Click here for List of Manuscripts and List of Personal Diaries of Prof. Nirmal Kumar Basu available in the Library)
+
+National Library has about 3600 rare and historically important manuscripts in different languages. These manuscripts are preserved separately along with other important and rare books in the Rare Books division. The xylographs presented by H. E. the Dalai Lama are also preserved in this collection.
+
+ 
+
+ Palm Leaves Preserved in the Rare Books Division
+
+Maps and Prints
+
+The library has an extensive collection of maps from the 17th century onwards. Indian topographical sheets of earlier days (at scale of one inch, half inch and quarter inch to a mile) and maps of natural resources, population, transport and communication systems, agricultural production, soil, vegetation and the geology of India form the major part of the collection. At present the library has 85,000 printed maps, 54 cartographic manuscripts, and 280 atlases
+
+Microforms
+The library has around 500 rolls of Microfilms and 1000 Microfiches. These are preserved in the Rare Books division. The Census of India (1872-1951) is one of the most important and rare document available in the form of Microfiches.</value>
+  </data>
+  <metadata name="pictureBox1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="pictureBox2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="label1.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
